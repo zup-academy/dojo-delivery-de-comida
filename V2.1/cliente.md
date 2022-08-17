@@ -15,7 +15,7 @@
 #### Endpoint cartão cliente
 
 - O cliente poderá cadastrar até 3 cartões para pagamento
-- O os dados sensíveis do cartão deverão ser registrados com criptografia
+- Os dados sensíveis do cartão deverão ser registrados com criptografia
 - Deverá receber numero, bandeira, cvv, vencimento, endereço de cobrança e nome do cartão
 
 #### Endpoint de consulta de cartões 
