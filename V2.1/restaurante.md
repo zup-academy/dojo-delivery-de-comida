@@ -24,10 +24,10 @@
 
 #### Endpoint para cadatrar um novo Prato
 
-- Um Restaurante só pode ter somente 100 pratos
+- Um Restaurante pode ter somente 100 pratos
 
 ### Enpoint de solicitação de pedido
 
 - Esse endpoint receberá os dados de um pedido com id do pedido, informações do prato
 - O restaurante tem o limite de 10 refeições no máximo para cada prato, ou seja se o cliente solicitou o 11º de um prato no dia o restaurante irá retornar para o sistema de pedidos o status "CANCELADO_RESTAURANTE"
-- Se o pedido estiver dentro do limite o restaurente irá chamar o endpoint de atualização de status passando o status  "PREPARANDO_RESTAURANTE"
+- Se o pedido estiver dentro do limite o restaurente irá chamar o endpoint de atualização de status passando o status "PREPARANDO_RESTAURANTE"
